@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Sushant Mane - modern developer portfolio built with HTML, CSS, and JavaScript."
+    />
+    <meta name="theme-color" content="#07111f" />
+    <title>Sushant Mane | Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="bg-orb orb-left" aria-hidden="true"></div>
+    <div class="bg-orb orb-right" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="#home" aria-label="Sushant Mane home">
+          <span class="brand-mark">SM</span>
+          <span class="brand-copy">
+            <strong>Sushant Mane</strong>
+            <small>Java Full Stack Developer</small>
+          </span>
+        </a>
+
+        <nav class="nav" aria-label="Primary">
+          <a class="nav-link active" href="#home">Home</a>
+          <a class="nav-link" href="#resume">Resume</a>
+          <a class="nav-link" href="#skills">Skills</a>
+          <a class="nav-link" href="#projects">Projects</a>
+          <a class="nav-link" href="#contact">Contact</a>
+        </nav>
+
+        <a class="header-cta" href="#projects">View Projects</a>
+      </div>
+    </header>
+
+    <main id="home">
+      <section class="hero section">
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <h1>Hi, I'm Sushant Mane</h1>
+            <p class="hero-subtitle">Java Full Stack Developer | Full Stack Enthusiast</p>
+            <p class="hero-text">
+              I build clean, scalable, and user-focused web applications using
+              modern technologies.
+            </p>
+
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#projects">View My Work</a>
+              <a class="btn btn-secondary" href="#contact">Contact Me</a>
+            </div>
+          </div>
+
+          <div class="hero-preview reveal">
+            <div class="profile-shell">
+              <img
+                src="images/portfolio_image.png"
+                alt="Profile portrait of Sushant Mane"
+                class="profile-image"
+                width="292"
+                height="292"
+                loading="eager"
+                decoding="async"
+                fetchpriority="high"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="resume">
+        <div class="container section-shell reveal">
+          <div class="section-head">
+            <p class="section-label">Resume</p>
+            <h2>Resume preview</h2>
+          </div>
+
+          <div class="resume-grid">
+            <div class="resume-copy">
+              <p>
+                This section gives visitors a quick look at my resume, core
+                strengths, education, experience, and the type of work I focus on.
+              </p>
+              <p>
+                You can view the full resume below or open the PDF in a new tab.
+              </p>
+
+              <div class="hero-actions resume-actions">
+                <a class="btn btn-primary" href="images/resume.pdf" target="_blank" rel="noreferrer">
+                  Open Resume
+                </a>
+                <a class="btn btn-secondary" href="images/resume.pdf" download>
+                  Download PDF
+                </a>
+              </div>
+
+              <div class="resume-notes">
+                <div>
+                  <span>Experience</span>
+                  <strong>Android App Development Intern</strong>
+                  <p>Global Logic Solutions, Feb 2025 - Apr 2025</p>
+                </div>
+                <div>
+                  <span>Certification</span>
+                  <strong>Android App Development Certificate</strong>
+                  <p>Hands-on Java, XML, SQLite, and Android Studio training</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="resume-viewer" aria-label="Resume PDF preview">
+              <iframe
+                src="images/resume.pdf"
+                title="Sushant Mane resume PDF"
+                loading="lazy"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="skills">
+        <div class="container section-shell reveal">
+          <div class="section-head">
+            <p class="section-label">Skills</p>
+            <h2>Tech Stack</h2>
+          </div>
+
+          <div class="skills-grid">
+            <article class="skill-card">
+              <span class="skill-icon">01</span>
+              <h3>HTML</h3>
+            </article>
+            <article class="skill-card">
+              <span class="skill-icon">02</span>
+              <h3>CSS</h3>
+            </article>
+            <article class="skill-card">
+              <span class="skill-icon">03</span>
+              <h3>JavaScript</h3>
+            </article>
+            <article class="skill-card">
+              <span class="skill-icon">04</span>
+              <h3>React</h3>
+            </article>
+            <article class="skill-card">
+              <span class="skill-icon">05</span>
+              <h3>Node.js</h3>
+            </article>
+            <article class="skill-card">
+              <span class="skill-icon">06</span>
+              <h3>MongoDB</h3>
+            </article>
+            <article class="skill-card">
+              <span class="skill-icon">07</span>
+              <h3>Tailwind</h3>
+            </article>
+            <article class="skill-card">
+              <span class="skill-icon">08</span>
+              <h3>Bootstrap</h3>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="projects">
+        <div class="container section-shell reveal">
+          <div class="section-head">
+            <p class="section-label">Projects</p>
+            <h2>Selected Work</h2>
+          </div>
+
+          <article class="project-card featured">
+            <div class="project-copy">
+              <p class="project-label">Featured Project</p>
+              <h3>AI Resume Builder</h3>
+              <p>
+                Full-stack AI-powered resume builder with live preview and PDF
+                export.
+              </p>
+
+              <div class="chip-row">
+                <span class="chip">React</span>
+                <span class="chip">MongoDB</span>
+                <span class="chip">Node.js</span>
+                <span class="chip">Tailwind</span>
+                <span class="chip">Bootstrap</span>
+              </div>
+
+              <div class="button-row">
+                <a class="btn btn-secondary" href="https://github.com/Mane-Sushant" target="_blank" rel="noreferrer">
+                  GitHub
+                </a>
+              </div>
+            </div>
+
+            <div class="gallery-grid">
+              <button class="gallery-item" type="button" data-full="images/resume1.png">
+                <img src="images/resume1.png" alt="AI Resume Builder screenshot 1" />
+              </button>
+              <button class="gallery-item" type="button" data-full="images/resume2.png">
+                <img src="images/resume2.png" alt="AI Resume Builder screenshot 2" />
+              </button>
+              <button class="gallery-item" type="button" data-full="images/resume3.png">
+                <img src="images/resume3.png" alt="AI Resume Builder screenshot 3" />
+              </button>
+              <button class="gallery-item" type="button" data-full="images/resume4.png">
+                <img src="images/resume4.png" alt="AI Resume Builder screenshot 4" />
+              </button>
+            </div>
+          </article>
+
+          <div class="project-grid">
+            <article class="project-card">
+              <div class="project-copy">
+                <p class="project-label">Project 2</p>
+                <h3>Attendance Management App</h3>
+                <p>
+                  Android app for managing student attendance and generating
+                  reports.
+                </p>
+
+                <div class="chip-row">
+                  <span class="chip">Java</span>
+                  <span class="chip">XML</span>
+                  <span class="chip">SQLite</span>
+                </div>
+              </div>
+
+              <div class="gallery-grid compact">
+                <button class="gallery-item" type="button" data-full="images/attendance1.jpeg">
+                  <img src="images/attendance1.jpeg" alt="Attendance app screenshot 1" />
+                </button>
+                <button class="gallery-item" type="button" data-full="images/attendance2.jpeg">
+                  <img src="images/attendance2.jpeg" alt="Attendance app screenshot 2" />
+                </button>
+                <button class="gallery-item" type="button" data-full="images/attendance3.jpeg">
+                  <img src="images/attendance3.jpeg" alt="Attendance app screenshot 3" />
+                </button>
+                <button class="gallery-item" type="button" data-full="images/attendance4.jpeg">
+                  <img src="images/attendance4.jpeg" alt="Attendance app screenshot 4" />
+                </button>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="contact">
+        <div class="container section-shell reveal">
+          <div class="section-head">
+            <p class="section-label">Contact</p>
+            <h2>Let&apos;s build something great together.</h2>
+          </div>
+
+          <div class="contact-grid">
+            <div class="contact-card">
+              <h3>Contact info</h3>
+              <p>Email: sushantmane4042@gmail.com</p>
+              <p>
+                LinkedIn:
+                <a href="https://www.linkedin.com/in/mane-sushant" target="_blank" rel="noreferrer">
+                  www.linkedin.com/in/mane-sushant
+                </a>
+              </p>
+              <p>
+                GitHub:
+                <a href="https://github.com/Mane-Sushant" target="_blank" rel="noreferrer">
+                  github.com/Mane-Sushant
+                </a>
+              </p>
+            </div>
+
+            <form
+              class="contact-form"
+              action="https://formsubmit.co/sushantmane4042@gmail.com"
+              method="POST"
+            >
+              <input type="hidden" name="_captcha" value="false" />
+              <input type="hidden" name="_template" value="table" />
+              <input type="hidden" name="_subject" value="New message from your portfolio" />
+              <label>
+                <span>Name</span>
+                <input type="text" name="name" placeholder="Your name" required />
+              </label>
+              <label>
+                <span>Email</span>
+                <input type="email" name="email" placeholder="Your email" required />
+              </label>
+              <label>
+                <span>Message</span>
+                <textarea
+                  rows="4"
+                  name="message"
+                  placeholder="Tell me about your project"
+                  required
+                ></textarea>
+              </label>
+              <button class="btn btn-primary" type="submit">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <p>(c) <span data-year></span> Sushant Mane</p>
+        <a href="#home">Back to top</a>
+      </div>
+    </footer>
+
+    <div class="lightbox" aria-hidden="true">
+      <button class="lightbox-close" type="button" aria-label="Close image">x</button>
+      <img class="lightbox-image" alt="" />
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
